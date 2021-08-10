@@ -248,7 +248,7 @@ if __name__ == '__main__':
                     )            
         dict_to_json(RESULTS,output_file_path)
         num_downloaded = len([img for img in iglob(output_DIR+'/*.jpg')])
-        print('Images Downloading finished : {num_downloaded}')
+        print(f'Images Downloading finished : {num_downloaded}')
 
     ## test ##
     if test:
