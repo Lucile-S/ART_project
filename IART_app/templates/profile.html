@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% set title = 'User Profile' %}
+
+{% block content %}
+    {% if current_user %}
+
+
+    <div class="write-content-section"> 
+
+            <br>
+            <h3>👋</h3>
+            <h3>Hello {{ current_user.username }}!</h3>
+            <h3>Welcome to IART! 👩‍🎨</h3>
+            <h4 class="text-center" >
+
+            <br>
+            <a href="{{ url_for('users.logout') }}">Logout</a>
+            </h4>
+        {% else %}
+            <h3>Welcome to IART! 👩‍🎨</h3>
+        {% endif %}
+    </div>
+{% endblock %}

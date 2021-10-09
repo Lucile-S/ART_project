@@ -1,0 +1,32 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+<body>
+
+    
+
+
+    <div class="write-content-section"> 
+        <div class="container text-center">
+            <h2 class="text-center" style="color:rgb(255, 196, 0)"> 👨‍🎨 Gallery 👩‍🎨 </h2>
+        </div>
+        <form action="{{ url_for('gallery.index') }}" method="post" enctype="multipart/form-data" >
+            <h3>Choose the gallery by artist or by genre: </h3>
+
+                    <input type="submit" name="options" id="by_artist" value="Artist"></input><br>
+                    <input type="submit" name="options" id="by_genre" value="Genre"></input><br>
+        </form>
+    </div>
+
+
+
+
+
+ 
+</body>
+
+
+{% endblock content %}
+
+   
+

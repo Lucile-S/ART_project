@@ -1,0 +1,57 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+<body>
+
+    <style>
+        .item {
+            float:left;
+            margin:2px;
+            padding:2px;
+            max-height:200px;
+            max-width:200px;
+            height:auto;
+            width:auto;
+            display: flex;
+    
+        }
+
+        body::after {
+        background-image: None;
+        background-color: white;
+        background-position: center; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        background-repeat: repeat; /* Do not repeat the image */
+        content: "";
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;   
+        }
+
+
+
+
+    </style>
+
+    <div class="container text-center">
+        <h2 class="text-center" style="color:rgb(255, 196, 0)"> 👨‍🎨 Gallery 👩‍🎨 | {{ classe }} </h2>
+    </div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='jquery.masonry.min.js') }}"></script>
+    <ul id="container">
+        {% for image in images %}
+            <img class="item"  title="{{image}}" src="../static/Data/{{image}}" />
+        {% endfor %}
+    </ul>
+
+
+    
+
+</body>
+
+{% endblock content %}

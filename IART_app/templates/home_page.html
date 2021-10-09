@@ -1,0 +1,36 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+
+<body >
+    <br/>
+    <br/>
+    <br/>
+
+
+    {% if result %}
+    {% for key, value in result.items() %}
+
+        <tr>
+           <th> {{ key }} </th>
+           : <th> {{ value }} </th><br>
+        </tr>
+        {% endfor %}
+        <p>La base virale VPS à été mise à jour</p>
+    {% endif %}
+
+          <div class="float-sm-right">
+            <div class="authentification-content-section">
+              <h3>Welcome to IART !</h3>
+              <p class='text-muted'>Existing user? Please login.
+                <ul><a href="{{ url_for('users.login') }}" style="color:#0f81b6"; class="nav__link">Login</a></ul>
+              </p>
+              <p class='text-muted'>Need an account? Please sign up.
+                <ul><a href="{{ url_for('users.register') }}" style="color:#0f81b6"; class="nav__link">Sign up</a></ul>
+              </p>
+         </div>
+
+
+
+</body>
+{% endblock content %}

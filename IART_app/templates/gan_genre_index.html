@@ -1,0 +1,72 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+<body>
+
+
+    <div class="gallery-content-section">
+        <div class="container text-center">
+            <h2 class="text-center" style="color:rgb(72, 189, 82)"> Is GAN a Painter itself? Use GANs to create art 🎨 </h2>
+        </div>
+
+        <div class="container-fluid bg-3 text-center">    
+        <form action="{{ url_for('gan.generate_fake', by_genre_or_artist=by) }}" method="post" enctype="multipart/form-data" >
+        <h3>Choose a Painting Genre</h3><br>
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            {% for img_genre, genre_name,i in data[:6] %}
+                <div class="col">
+                    <p class="label-center"> 
+                    <label class="radio-inline" style="padding-left:50px;"><input type="radio" name="genre" value="{{i}}" required/> {{genre_name}}</label>
+                    </p>
+                    <img src="../static/genres/{{img_genre}}" class="circular--square" width="110" height="110" alt="Image">
+                </div>
+            {% endfor %}
+            <div class="col-sm-1">
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            {% for img_genre, genre_name,i in data[6:12] %}
+                <div class="col">
+                    <p class="label-center"> 
+                        <label class="radio-inline" style="padding-left:50px;"><input type="radio" name="genre" value="{{i}}" required> {{genre_name}}</label>
+                    </p>
+                    <img src="../static/genres/{{img_genre}}" class="circular--square" width="110" height="110" alt="Image">
+                </div>
+            {% endfor %}
+            <div class="col-sm-1">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            {% for img_genre, genre_name,i in data[12:18] %}
+                <div class="col">
+                    <p class="label-center"> 
+                        <label class="radio-inline" style="padding-left:50px;"><input type="radio" name="genre" value="{{i}}" required> {{genre_name}}</label>
+                    </p>
+                    <img src="../static/genres/{{img_genre}}" class="circular--square" width="110" height="110" alt="Image">
+                </div>
+            {% endfor %}
+            <div class="col-sm-1">
+            </div>
+        </div>
+        <div class="container text-center">
+            <button type="submit"  class="btn btn-primary" >Submit</button>
+        </div>
+    </form>
+    </div>
+
+</body>
+
+
+{% endblock content %}
+
+   
+

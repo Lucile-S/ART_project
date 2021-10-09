@@ -1,0 +1,60 @@
+
+
+{##}
+{% extends "layout.html" %}
+{% block content %}
+<body>
+
+
+
+    <div class="styletransfer-content-section"> 
+        <div class="container-fluid bg-3 text-center"> 
+            <div class="container text-center ">
+                <h2 class="text-center" style="color:rgb(255, 115, 0)"> Neural Style Transfer: Creating Art with Deep Learning  🎨 </h2>
+            </div>
+        </div>
+
+
+
+    <div class="clearfix">
+        <div class="text-container">
+            Content Image Uploaded Successfully !
+            <br/>
+            Filename: {{content}}
+        </div>
+        <div class="text-container">
+            Style Image Uploaded Successfully !
+            <br/>
+            Filename: {{style}}
+        </div>
+    </div>
+
+
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="{{ url_for('style_transfer.send_content_image', filename=content) }}" class="img-responsive" >
+        </div>
+          
+
+         <div class="img-container">
+            <img  src="{{ url_for('style_transfer.send_style_image', filename=style) }}" class="img-responsive">
+        </div>
+    </div>
+   
+    <div class="container-fluid bg-3 text-center"> 
+        <form method="POST" action="{{ url_for('style_transfer.run_style_transfer', content_filename=content, style_filename=style) }}" enctype=multipart/form-data>
+            <input type="submit" value="Run Style Transfer" onclick="run_message()" >
+            <br/>
+            <h3 id="run"></h3>
+            <script>
+            function run_message() {
+            document.getElementById("run").innerHTML = "Style transfer is running 🖌️. Please wait ! It's going to take around 5 min ⏳ ";
+            }
+            </script>
+        </form>
+    </div>
+</body>
+    
+ 
+
+{% endblock content %}

@@ -1,0 +1,77 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+<body>
+
+    <div class="gallery-content-section"> 
+        <div class="container text-center">
+            <h2 class="text-center" style="color:rgb(255, 196, 0)"> 👨‍🎨 Gallery 👩‍🎨 </h2>
+        </div>
+        
+
+        <div class="container-fluid bg-3 text-center">    
+        <form action="{{ url_for('gallery.show_gallery', by_genre_or_artist=by) }}" method="post" enctype="multipart/form-data" >
+            <h3>Choose a genre whose paintings you want to exhibit</h3>
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                {% for img_genre, genre_name,i in data[:6] %}
+                    <div class="col">
+                        <p class="label-center"> 
+                        <label class="radio-inline" style="padding-left:45px;"><input type="radio" name="genre" value="{{i}}" required/> {{genre_name}}</label>
+                        </p>
+                        <img src="../static/genres/{{img_genre}}" class="circular--square" width="110" height="110" alt="Image">
+                    </div>
+                {% endfor %}
+                <div class="col-sm-1">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                {% for img_genre, genre_name,i in data[6:12] %}
+                    <div class="col">
+                        <p class="label-center"> 
+                            <label class="radio-inline" style="padding-left:45px;"><input type="radio" name="genre" value="{{i}}" required> {{genre_name}}</label>
+                        </p>
+                        <img src="../static/genres/{{img_genre}}" class="circular--square" width="110" height="110" alt="Image">
+                    </div>
+                {% endfor %}
+                <div class="col-sm-1">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                {% for img_genre, genre_name,i in data[12:18] %}
+                    <div class="col">
+                        <p class="label-center"> 
+                            <label class="radio-inline" style="padding-left:45px;"><input type="radio" name="genre" value="{{i}}" required> {{genre_name}}</label>
+                        </p>
+                        <img src="../static/genres/{{img_genre}}" class="circular--square" width="110" height="110" alt="Image">
+                    </div>
+                {% endfor %}
+                <div class="col-sm-1">
+                </div>
+            </div>
+            <br>
+            <div class="container text-center">
+                <button type="submit"  class="btn btn-primary" >Submit</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+{% endblock content %}
+
+   
+

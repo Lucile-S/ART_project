@@ -1,0 +1,65 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .result-img-responsive {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    }
+
+    .clearfix::after {
+        display: inline table;
+        content: "";
+        clear: both;
+    }
+
+    .result-img-container {
+    float: left;
+    width: 33%;
+    padding: 15px;
+    }
+
+
+    </style>
+
+
+
+    <div class="container-fluid bg-3 text-center"> 
+        <div class="container text-center ">
+            <h2 class="text-center" style="color:rgb(44, 175, 44)"> Is GAN a Painter itself ? Use GANs to create art 🎨</h2>
+        </div>
+    </div>
+
+
+    <div class="jumbotron  text-center" >
+        <div class="container text-center">
+            <h2> 🎨 🖌 Look what I have painted ! It's a {{classe}} like painting.
+            </h2>
+            <h3> Click on it to download it 🙂 </h3>
+        </div>
+    </div>
+
+
+    <br/>
+
+    <div class="clearfix">
+        <div class="result-img-container">
+            <a href="{{ url_for('gan.send_output_image', by_genre_or_artist = by, filename=output_image)}}"  download="output_gan.png">
+                <img  src="{{ url_for('gan.send_output_image',by_genre_or_artist = by, filename=output_image)}}"  class="result-img-responsive" >
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+{% endblock content %}

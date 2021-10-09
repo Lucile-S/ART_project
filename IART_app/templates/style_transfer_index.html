@@ -1,0 +1,58 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+<body>
+
+
+    <div class="styletransfer-content-section"> 
+        <div class="container-fluid bg-3 text-center"> 
+            <div class="container text-center ">
+                <h2 class="text-center" style="color:rgb(255, 115, 0)"> Neural Style Transfer: Creating Art with Deep Learning  🎨 </h2>
+            </div>
+        </div>
+
+        <br/>
+        <div class="container-fluid bg-3 text-center">  
+        <form  method="POST" action="{{ url_for('style_transfer.upload') }}"  enctype="multipart/form-data" >
+            <h3>Upload your content image</h3><br>  
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                    <span class="btn btn-default btn-file">
+                        <input type="file" name="content" required>
+                    </span>
+
+                    </div>
+                </div>
+            <br>
+            <h3>Upload your style image</h3><br>  
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                    <span class="btn btn-default btn-file">
+                        <input type="file" name="style" required>
+                    </span>
+                    </div>
+                </div>
+                <br/>
+            <h3>Choose a number of iterations :</h3><br>  
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                    <span class="btn btn-default btn-file">
+                        <input type="number" name="steps" value="500" required>
+                    </span>
+                    </div>
+                </div>
+
+                <br>
+            <input type="submit" name="submit" value="Upload" class="btn btn-primary" required>
+            <br>   
+        </form>
+        </div>
+    </div>
+
+    
+  
+</body>
+{% endblock content %}

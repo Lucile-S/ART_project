@@ -1,0 +1,38 @@
+{##}
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="jumbotron" >
+        <div class="container text-center">
+            <h1>Style transfer using pytorch</h1>
+        </div>
+    </div>
+      
+    <div class="container-fluid bg-3 text-center">  
+    <form  action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data" >
+        <h3>Upload your content image</h3><br>  
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-8">
+                <span class="btn btn-default btn-file">
+                    <input type="file" name="content" required>
+                </span>
+                <input type="submit" name="content-submit" value="Upload your image" class="btn btn-primary" required>
+                </div>
+            </div>
+        <br>
+        <h3>Upload your style image</h3><br>  
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-8">
+                <span class="btn btn-default btn-file">
+                    <input type="file" name="style" required>
+                </span>
+                <input type="submit" name="style-submit" value="Upload your image" class="btn btn-primary" required>
+                </div>
+            </div>
+        <br>   
+    </form>
+    </div>
+  
+{% endblock content %}
