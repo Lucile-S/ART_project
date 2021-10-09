@@ -8,30 +8,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from database.models import PSQL  # Table's lasses
 from sqlalchemy.dialects.postgresql import ARRAY
 
-# -- References 
-# https://www.learndatasci.com/tutorials/using-databases-python-postgres-sqlalchemy-and-alembic/
-# https://towardsdatascience.com/a-guide-on-how-to-interact-between-python-and-databases-using-sqlalchemy-and-postgresql-a6d770723474
-# https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4
-# https://www.programcreek.com/python/?code=privacyidea%2Fprivacyidea%2Fprivacyidea-master%2Fprivacyidea%2Flib%2Fauditmodules%2Fsqlaudit.py
-# https://www.codegrepper.com/code-examples/sql/load+csv+files+into+postgres+db+sqlalchemy
-# ------------------ #
-#   CRUD FUNCTIONS   #
-# ------------------ #
-
-# def recreate_database(engine):
-#     Base.metadata.drop_all(engine)
-#     Base.metadata.create_all(engine)
-
-# def create_database(engine):
-#     # Create database if it does not exist.
-#     if not database_exists(engine.url): 
-#         print('Database creation.')
-#         Base.metadata.create_all(engine)
-#     else:
-#         # Connect the database if exists.
-#         print('Database already existing.')
-#         engine.connect()
-
 
 if __name__ == "__main__":
     add_csv = False
