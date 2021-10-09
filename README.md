@@ -9,3 +9,7 @@ Data cleaning -> **script src/clean_data.py**
 
 ## Data Base
 DB : POSTGRESQL 
+
+## Application
+
+Folder  -> **script IART_app/**
