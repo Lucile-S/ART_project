@@ -7,8 +7,7 @@ For this project, I gathered images of paintings from various artist from WikiAr
 Data cleaning -> **script src/clean_data.py**
 
 
-## Data Base
-DB : POSTGRESQL 
+## DataBase : POSTGRESQL 
 
 ## Application
 
