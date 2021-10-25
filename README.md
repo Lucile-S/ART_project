@@ -7,7 +7,12 @@ For this project, I gathered images of paintings from various artist from WikiAr
 Data cleaning -> **script src/clean_data.py**
 
 
-## DataBase : POSTGRESQL 
+## DataBase :
+POSTGRESQL 
+
+## IA :
+- neural style transfer
+- GAN 
 
 ## Application
 
