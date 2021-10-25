@@ -1,0 +1,682 @@
+[2021-10-09 11:53:55,263] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 11:54:13,374] :: INFO :: Thread-3 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:54:13] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 11:54:14,104] :: INFO :: Thread-4 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:54:14] "GET /profile HTTP/1.1" 302 -
+[2021-10-09 11:54:14,160] :: INFO :: Thread-6 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:54:14] "GET /login?next=%2Fprofile HTTP/1.1" 200 -
+[2021-10-09 11:54:16,191] :: INFO :: Thread-9 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:54:16] "GET /home HTTP/1.1" 200 -
+[2021-10-09 11:54:17,757] :: INFO :: Thread-15 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:54:17] "GET /style_transfer/ HTTP/1.1" 200 -
+[2021-10-09 11:54:50,651] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/app.py', reloading
+[2021-10-09 11:54:50,702] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 11:54:55,655] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 11:55:15,053] :: INFO :: Thread-3 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:55:15] "GET /profile HTTP/1.1" 302 -
+[2021-10-09 11:55:15,097] :: INFO :: Thread-4 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:55:15] "GET /login?next=%2Fprofile HTTP/1.1" 200 -
+[2021-10-09 11:55:17,027] :: INFO :: Thread-7 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:55:17] "POST /login?next=%2Fprofile HTTP/1.1" 302 -
+[2021-10-09 11:55:17,068] :: INFO :: Thread-8 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:55:17] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 11:55:31,476] :: INFO :: Thread-11 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:55:31] "GET /style_transfer/ HTTP/1.1" 200 -
+[2021-10-09 11:56:40,886] :: INFO :: Thread-15 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:56:40] "POST /style_transfer/upload HTTP/1.1" 302 -
+[2021-10-09 11:56:40,917] :: INFO :: Thread-16 :: _internal :: 127.0.0.1 - - [09/Oct/2021 11:56:40] "GET /style_transfer/ HTTP/1.1" 200 -
+[2021-10-09 12:09:27,267] :: INFO :: Thread-20 :: _internal :: 127.0.0.1 - - [09/Oct/2021 12:09:27] "POST /style_transfer/upload HTTP/1.1" 302 -
+[2021-10-09 12:09:27,285] :: INFO :: Thread-21 :: _internal :: 127.0.0.1 - - [09/Oct/2021 12:09:27] "GET /style_transfer/ HTTP/1.1" 200 -
+[2021-10-09 12:18:32,420] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 12:18:32,468] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 12:21:25,373] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 12:21:26,562] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 12:21:26,681] :: INFO :: Thread-3 :: _internal :: 127.0.0.1 - - [09/Oct/2021 12:21:26] "GET / HTTP/1.1" 200 -
+[2021-10-09 12:26:16,337] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 12:26:16,391] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 12:26:16,810] :: INFO :: MainThread :: _internal ::  * Restarting with stat
+[2021-10-09 12:33:23,699] :: INFO :: Thread-10 :: build_app ::logger configured
+[2021-10-09 12:33:23,786] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 12:33:23] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 12:33:23,799] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 12:33:23] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 12:33:23,807] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 12:33:23] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 12:33:25,005] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 12:33:25] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 12:34:51,773] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 12:34:51,808] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 12:34:52,376] :: INFO :: MainThread :: _internal ::  * Restarting with stat
+b5a47db0-4030-422f-b029-8529fa51278c - 2021-10-09 12:39:38,334 - build_app.py - build_app - create_app - 78 - [INFO] - logger configured
+b5a47db0-4030-422f-b029-8529fa51278c - 2021-10-09 12:39:38,467 - _internal.py - _internal - _log - 113 - [INFO] - 127.0.0.1 - - [09/Oct/2021 12:39:38] "GET / HTTP/1.1" 200 -
+b5a47db0-4030-422f-b029-8529fa51278c - 2021-10-09 12:39:40,010 - _internal.py - _internal - _log - 113 - [INFO] - 127.0.0.1 - - [09/Oct/2021 12:39:40] "GET /gan/ HTTP/1.1" 200 -
+b5a47db0-4030-422f-b029-8529fa51278c - 2021-10-09 12:39:40,475 - _internal.py - _internal - _log - 113 - [INFO] - 127.0.0.1 - - [09/Oct/2021 12:39:40] "GET /profile HTTP/1.1" 200 -
+b5a47db0-4030-422f-b029-8529fa51278c - 2021-10-09 12:41:09,150 - _internal.py - _internal - _log - 113 - [INFO] -  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+b5a47db0-4030-422f-b029-8529fa51278c - 2021-10-09 12:41:09,203 - base.py - base - shutdown - 203 - [INFO] - Scheduler has been shut down
+[2021-10-09 12:41:19,078] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 12:43:48,532] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 12:43:48,534] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 12:44:19,279] :: INFO :: Thread-10 :: build_app :: logger configured
+[2021-10-09 12:44:19,388] :: INFO :: Thread-10 :: _internal :: 127.0.0.1 - - [09/Oct/2021 12:44:19] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 12:44:19,399] :: INFO :: Thread-11 :: _internal :: 127.0.0.1 - - [09/Oct/2021 12:44:19] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 12:44:20,813] :: INFO :: Thread-12 :: _internal :: 127.0.0.1 - - [09/Oct/2021 12:44:20] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 12:44:21,806] :: INFO :: Thread-16 :: _internal :: 127.0.0.1 - - [09/Oct/2021 12:44:21] "GET /style_transfer/ HTTP/1.1" 200 -
+[2021-10-09 12:53:33,997] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 12:53:34,034] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 12:53:39,081] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 12:56:18,745] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 12:56:18,746] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 12:56:22,493] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 13:02:22,499] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 13:02:22,500] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 13:12:40,926] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 13:20:38,431] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 13:20:38,433] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 13:20:42,259] :: INFO :: Thread-1 :: build_app :: logger configured
+[2021-10-09 13:21:57,705] :: INFO :: MainThread :: _internal ::  * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 13:21:57,707] :: INFO :: MainThread :: base :: Scheduler has been shut down
+[2021-10-09 13:22:46,261] :: INFO :: Thread-10 :: build_app ::logger configured
+[2021-10-09 13:22:46,364] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:22:46] "GET / HTTP/1.1" 200 -
+[2021-10-09 13:22:47,820] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:22:47] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 13:22:48,386] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:22:48] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 13:25:43,589] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 13:25:43,665] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 13:25:49,594] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 13:25:51,927] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:25:51] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 13:25:52,869] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:25:52] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 13:25:54,082] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:25:54] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 13:26:11,387] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 13:26:12,678] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 13:26:14,625] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:26:14] "GET / HTTP/1.1" 200 -
+[2021-10-09 13:26:15,742] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:26:15] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 13:26:16,288] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:26:16] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 13:26:41,650] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 13:26:41,707] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 13:26:42,231] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 13:26:46,569] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 13:27:14,089] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:27:14] "GET / HTTP/1.1" 200 -
+[2021-10-09 13:27:16,318] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:27:16] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 13:27:16,886] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:27:16] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 13:27:20,886] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 13:27:20] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 13:30:08,656] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 13:30:08,701] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 13:30:09,536] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 13:30:13,278] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 13:53:27,944] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 13:53:27,945] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 13:53:28,349] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 13:53:32,062] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 13:53:32,071] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 13:53:32,610] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 13:54:12,751] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:02:40,735] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:02:40] "GET / HTTP/1.1" 200 -
+[2021-10-09 14:02:43,445] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:02:43] "GET / HTTP/1.1" 200 -
+[2021-10-09 14:02:44,212] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:02:44] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 14:02:44,986] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:02:44] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:02:45,566] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:02:45] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 14:03:03,042] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:03] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 14:03:03,340] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:03] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:03:03,421] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:03] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:03:03,422] :: INFO :: Thread-18 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:03] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:03:03,801] :: INFO :: Thread-20 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:03] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:03:03,825] :: INFO :: Thread-21 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:03] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:03:04,066] :: INFO :: Thread-22 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:04] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:03:22,143] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:22] "GET / HTTP/1.1" 200 -
+[2021-10-09 14:03:23,650] :: INFO :: Thread-26 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:23] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 14:03:42,204] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:42] "GET / HTTP/1.1" 200 -
+[2021-10-09 14:03:43,608] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:43] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:03:44,779] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:44] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 14:03:48,357] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:03:48] "GET /gan/mo/ HTTP/1.1" 404 -
+[2021-10-09 14:04:35,415] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:04:35] "GET /gan/mo/ HTTP/1.1" 404 -
+[2021-10-09 14:05:21,521] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:05:21] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 14:05:27,190] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:05:27] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:05:30,249] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:05:30] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:06:10,319] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:06:10] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:06:12,326] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:06:12] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:06:12,631] :: INFO :: Thread-18 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:06:12] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:06:27,231] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:06:27] "GET / HTTP/1.1" 200 -
+[2021-10-09 14:06:30,364] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:06:30] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:07:00,074] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:07:00] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:07:01,002] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:07:01] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:07:01,314] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:07:01] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:07:04,009] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:07:04] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:07:32,279] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:07:32] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:08:07,036] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:08:07] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:08:08,265] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:08:08] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:08:08,582] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:08:08] "GET /xx/ HTTP/1.1" 404 -
+[2021-10-09 14:08:15,476] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:08:15] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:08:16,147] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:08:16] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 14:08:30,753] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:08:30] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 14:09:28,834] :: INFO :: Thread-20 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:09:28] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 14:09:29,831] :: INFO :: Thread-21 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:09:29] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 14:09:30,134] :: INFO :: Thread-22 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:09:30] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 14:09:57,564] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:09:57] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:19:56,506] :: INFO :: Thread-26 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:19:56] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:22:16,974] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:22:17,012] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:22:17,531] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:22:41,896] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:22:41,897] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:22:42,383] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:22:51,148] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:22:51] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 14:23:27,550] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:23:27] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 14:23:41,008] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:23:41] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 14:26:16,044] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:26:16,061] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:26:16,533] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:31:09,454] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:31:09,455] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:31:10,074] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:31:38,301] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 14:31:38,302] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:31:38,780] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:33:13,034] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:33:13,037] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:33:13,834] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:33:16,984] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 14:33:18,817] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:33:18] "GET /home HTTP/1.1" 200 -
+[2021-10-09 14:33:19,868] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:33:19] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:33:22,374] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:33:22] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 14:35:35,583] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:35:35,632] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:35:36,184] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:37:43,483] :: INFO :: Thread-10 :: build_app ::logger configured
+[2021-10-09 14:37:43,575] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:43] "GET /home HTTP/1.1" 200 -
+[2021-10-09 14:37:44,990] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:44] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:37:45,626] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:45] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 14:37:47,696] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:47] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 14:37:47,996] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:47] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:37:48,089] :: INFO :: Thread-21 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:48] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:37:48,091] :: INFO :: Thread-20 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:48] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:37:48,542] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:48] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:37:48,543] :: INFO :: Thread-22 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:37:48] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:37:57,820] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:37:57,866] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:37:58,424] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:38:04,846] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:04] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 14:38:04,897] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:04] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:38:05,022] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:05] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:38:05,205] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:05] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:38:05,585] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:05] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:38:05,616] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:05] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:38:05,832] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:05] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:38:06,801] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:06] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 14:38:07,131] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:07] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:38:07,197] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:07] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:38:07,223] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:07] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:38:07,693] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:07] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:38:07,699] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:07] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:38:07,955] :: INFO :: Thread-18 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:07] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:38:11,502] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:11] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 14:38:13,147] :: INFO :: Thread-21 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:13] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:38:15,788] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:15] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 14:38:18,772] :: INFO :: Thread-24 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:18] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 14:38:22,794] :: INFO :: Thread-25 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:22] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:38:25,964] :: INFO :: Thread-27 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:38:25] "GET /profile/wx HTTP/1.1" 404 -
+[2021-10-09 14:42:51,322] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:42:51,394] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:42:52,122] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:42:57,592] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:42:57] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:43:00,540] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:43:00] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 14:43:03,272] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:43:03] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 14:46:45,263] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:46:45,307] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:46:45,757] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:47:08,443] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:47:08,444] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:47:08,855] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:47:24,526] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:24] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 14:47:25,770] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:25] "POST /gallery/index HTTP/1.1" 200 -
+[2021-10-09 14:47:25,889] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:25] "GET /static/genres/abstract.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,196] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/mythological_painting.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,275] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/nude_painting_(nu).jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,297] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/religious_painting.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,297] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/symbolic_painting.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,308] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/sketch_and_study.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,302] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/self-portrait.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,661] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/portrait.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,753] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/landscape.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,783] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/marina.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,852] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/still_life.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,872] :: INFO :: Thread-18 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/allegorical_painting.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:26,875] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:26] "GET /static/genres/animal_painting.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:27,075] :: INFO :: Thread-20 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:27] "GET /static/genres/cityscape.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:27,188] :: INFO :: Thread-21 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:27] "GET /static/genres/flower_painting.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:27,252] :: INFO :: Thread-22 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:27] "GET /static/genres/illustration.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:27,303] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:27] "GET /static/genres/interior.jpg HTTP/1.1" 200 -
+[2021-10-09 14:47:29,158] :: INFO :: Thread-24 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:29] "GET /gallery/index/xx HTTP/1.1" 500 -
+[2021-10-09 14:47:29,225] :: INFO :: Thread-25 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:29] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:47:29,412] :: INFO :: Thread-26 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:29] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:47:29,554] :: INFO :: Thread-27 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:29] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:47:30,018] :: INFO :: Thread-28 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:30] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:47:30,056] :: INFO :: Thread-29 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:30] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:47:30,305] :: INFO :: Thread-30 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:47:30] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:47:55,649] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:47:55,697] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:47:56,168] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:48:12,276] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:48:12,277] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:48:12,815] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:48:16,199] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:16] "GET /gallery/index/xx HTTP/1.1" 500 -
+[2021-10-09 14:48:16,250] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:16] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:48:16,252] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:16] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:48:16,574] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:16] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:48:16,947] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:16] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:48:16,961] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:16] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:48:17,215] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:17] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:48:18,203] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:18] "GET /gallery/index/xx HTTP/1.1" 500 -
+[2021-10-09 14:48:18,495] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:18] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:48:18,566] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:18] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:48:18,567] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:18] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:48:19,010] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:19] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:48:19,011] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:19] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:48:19,277] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:19] "GET /gallery/index/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:48:21,776] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:21] "GET /gallery/index/ HTTP/1.1" 500 -
+[2021-10-09 14:48:22,069] :: INFO :: Thread-18 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:22] "GET /gallery/index/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:48:22,165] :: INFO :: Thread-20 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:22] "GET /gallery/index/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:48:22,165] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:22] "GET /gallery/index/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:48:22,581] :: INFO :: Thread-21 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:22] "GET /gallery/index/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:48:22,592] :: INFO :: Thread-22 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:22] "GET /gallery/index/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:48:22,841] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:22] "GET /gallery/index/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:48:38,045] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:48:38,067] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:48:38,507] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:48:51,105] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:48:51,106] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:48:51,575] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:48:59,417] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:48:59] "GET / HTTP/1.1" 200 -
+[2021-10-09 14:49:00,752] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:00] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:49:03,676] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:03] "GET /profile/xx HTTP/1.1" 500 -
+[2021-10-09 14:49:03,966] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:03] "GET /profile/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:49:04,075] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:04] "GET /profile/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:49:04,075] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:04] "GET /profile/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:49:04,590] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:04] "GET /profile/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:49:04,605] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:04] "GET /profile/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:49:04,854] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:49:04] "GET /profile/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:49:38,884] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:49:38,932] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:49:39,532] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:49:50,877] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:49:50,878] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:49:51,365] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:49:55,139] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:49:55,140] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:49:55,616] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:50:04,201] :: ERROR :: Thread-3 :: build_app ::HTTPException, : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 14:50:04,229] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:50:04] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 14:50:05,915] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:50:05] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:50:06,726] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:50:06] "GET /home HTTP/1.1" 200 -
+[2021-10-09 14:50:09,127] :: ERROR :: Thread-9 :: build_app ::HTTPException, : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 14:50:09,142] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:50:09] "GET /home/xx HTTP/1.1" 404 -
+[2021-10-09 14:54:47,167] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:54:47,208] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:54:47,712] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:55:03,202] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 14:55:03,204] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:55:03,767] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:57:55,708] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:57:55,709] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:57:56,139] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:58:47,760] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:58:47,763] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:58:48,296] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:58:52,951] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:58:52] "GET /home/xx HTTP/1.1" 500 -
+[2021-10-09 14:58:52,998] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:58:52] "GET /home/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 14:58:53,159] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:58:53] "GET /home/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 14:58:53,316] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:58:53] "GET /home/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 14:58:53,700] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:58:53] "GET /home/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 14:58:53,714] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:58:53] "GET /home/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:58:53,955] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:58:53] "GET /home/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 14:59:09,089] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:59:09,105] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:59:09,603] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:59:30,703] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 14:59:30,704] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 14:59:31,172] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 14:59:38,949] :: ERROR :: Thread-3 :: build_app ::HTTPException, : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 14:59:38,997] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:59:38] "GET /home/xx HTTP/1.1" 404 -
+[2021-10-09 14:59:40,783] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:59:40] "GET /home HTTP/1.1" 200 -
+[2021-10-09 14:59:41,398] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:59:41] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 14:59:43,511] :: ERROR :: Thread-9 :: build_app ::HTTPException, : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 14:59:43,517] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 14:59:43] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:00:05,436] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:00:05,511] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:00:06,117] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:00:58,611] :: INFO :: Thread-10 :: build_app ::logger configured
+[2021-10-09 15:00:58,715] :: ERROR :: Thread-10 :: build_app ::HTTPException, : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:00:58,764] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:00:58] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:01:00,099] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:01:00] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:01:02,527] :: ERROR :: Thread-13 :: build_app ::HTTPException, : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:01:02,543] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:01:02] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:01:48,984] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:01:48] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 15:01:51,255] :: ERROR :: Thread-16 :: build_app ::HTTPException, : 405 Method Not Allowed: The method is not allowed for the requested URL.
+[2021-10-09 15:01:51,265] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:01:51] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 15:03:24,786] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:03:24,834] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:03:25,309] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:03:29,958] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:03:33,068] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:03:33,069] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:03:33,489] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:03:36,652] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:03:50,337] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:03:50,338] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:03:50,775] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:03:54,372] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:05:31,279] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:05:31,280] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:05:31,772] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:05:35,294] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:11:34,279] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:11:34,280] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:11:34,689] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:12:01,905] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:17:43,470] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:18:06,948] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:18:10,323] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:18:10,422] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:10] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:18:12,179] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:12] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 15:18:12,868] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:12] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:18:16,576] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:16] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 15:18:20,875] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:20] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 15:18:21,174] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:21] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:18:21,254] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:21] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:18:21,256] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:21] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:18:21,646] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:21] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:18:21,676] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:21] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:18:25,090] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:25] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 15:18:25,385] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:25] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:18:25,466] :: INFO :: Thread-21 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:25] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:18:25,467] :: INFO :: Thread-20 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:25] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:18:25,826] :: INFO :: Thread-22 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:25] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:18:25,874] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:25] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:18:26,092] :: INFO :: Thread-24 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:26] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:18:41,724] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:18:41,795] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:18:42,315] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:18:47,391] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:47] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 15:18:47,451] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:47] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:18:47,456] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:47] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:18:47,778] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:47] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:18:48,165] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:48] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:18:48,167] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:48] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:18:48,462] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:48] "GET /gallery/ HTTP/1.1" 200 -
+[2021-10-09 15:18:51,304] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:51] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 15:18:51,611] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:51] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:18:51,741] :: INFO :: Thread-15 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:51] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:18:51,742] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:51] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:18:52,115] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:52] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:18:52,142] :: INFO :: Thread-18 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:52] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:18:52,380] :: INFO :: Thread-19 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:52] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:18:59,878] :: INFO :: Thread-20 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:18:59] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 15:19:00,176] :: INFO :: Thread-22 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:00] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:19:00,241] :: INFO :: Thread-23 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:00] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:19:00,245] :: INFO :: Thread-24 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:00] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:19:00,622] :: INFO :: Thread-25 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:00] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:19:00,637] :: INFO :: Thread-26 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:00] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:19:00,856] :: INFO :: Thread-27 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:00] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:19:01,965] :: INFO :: Thread-28 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:01] "GET /gallery/xx HTTP/1.1" 500 -
+[2021-10-09 15:19:02,267] :: INFO :: Thread-30 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:02] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:19:02,348] :: INFO :: Thread-32 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:02] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:19:02,349] :: INFO :: Thread-31 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:02] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:19:02,738] :: INFO :: Thread-33 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:02] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:19:02,755] :: INFO :: Thread-34 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:02] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:19:02,998] :: INFO :: Thread-35 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:19:02] "GET /gallery/xx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:21:50,438] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:21:50,491] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:21:51,093] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:22:38,337] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:22:38,338] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:22:38,743] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:23:23,752] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:23:27,372] :: ERROR :: Thread-3 :: build_app ::Server Error: 405 Method Not Allowed: The method is not allowed for the requested URL.
+[2021-10-09 15:23:27,404] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:23:27] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 15:25:02,110] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:25:02,111] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:25:02,565] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:25:06,372] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:25:06,373] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:25:06,799] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:25:11,023] :: ERROR :: Thread-3 :: build_app ::Server Error: 405 Method Not Allowed: The method is not allowed for the requested URL.
+[2021-10-09 15:25:11,056] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:25:11] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 15:25:13,461] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:25:13] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:25:17,842] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:25:17] "GET /profile/XX/ HTTP/1.1" 404 -
+[2021-10-09 15:25:52,319] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:25:52,372] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:25:52,964] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:25:57,354] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:25:57] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:26:15,370] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:26:15] "GET / HTTP/1.1" 200 -
+[2021-10-09 15:26:18,217] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:26:18] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:26:20,689] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:26:20] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:26:38,186] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:26:38,230] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:26:38,708] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:26:42,732] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:26:43,096] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:26:43] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:26:47,182] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:26:47] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 15:26:49,737] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:26:49] "GET /gan/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:27:47,188] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:27:47,238] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:27:47,802] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:29:09,252] :: INFO :: Thread-11 :: build_app ::logger configured
+[2021-10-09 15:29:09,403] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:29:09] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:29:10,899] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:29:10] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:29:14,014] :: ERROR :: Thread-13 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:29:19,085] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:29:19] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:29:17,803] :: ERROR :: Thread-16 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:29:24,208] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:29:24] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:30:42,869] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:30:42,910] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:30:43,338] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:33:13,321] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:13] "GET / HTTP/1.1" 500 -
+[2021-10-09 15:33:13,367] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:33:13,578] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:13] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:33:13,695] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:33:14,116] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:33:14,117] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:14] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:33:14,364] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:33:25,448] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:33:25,449] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:33:25,925] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:33:28,862] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:33:30,324] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:33:30,325] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:33:30,801] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:33:33,359] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:33:38,314] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:38] "GET / HTTP/1.1" 200 -
+[2021-10-09 15:33:40,063] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:40] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:33:42,352] :: ERROR :: Thread-7 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:33:47,422] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:47] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:33:45,823] :: ERROR :: Thread-9 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:33:52,451] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:52] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:33:47,661] :: ERROR :: Thread-10 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:33:57,480] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:33:57] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:33:55,352] :: ERROR :: Thread-11 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:34:02,505] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:34:02] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:34:54,192] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:34:54,242] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:34:54,895] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:34:59,727] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:35:02,981] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:35:02] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:35:00,950] :: ERROR :: Thread-3 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:35:05,993] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:35:05] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:35:05,867] :: ERROR :: Thread-5 :: build_app ::Server Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-10-09 15:35:11,027] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:35:11] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:36:21,557] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:36:21,609] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:36:22,055] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:36:26,668] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:36:31,448] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:36:32,542] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:36:32,638] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:36:32] "GET / HTTP/1.1" 200 -
+[2021-10-09 15:36:34,064] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:36:34] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:36:37,635] :: ERROR :: Thread-5 :: build_app ::Server Error
+[2021-10-09 15:36:42,704] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:36:42] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:41:28,327] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:41:28,373] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:41:28,837] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:43:45,133] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:43:46,140] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:43:54,561] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:43:54] "GET /profile/xx/ HTTP/1.1" 500 -
+[2021-10-09 15:43:54,634] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:43:54] "GET /profile/xx/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-10-09 15:43:54,823] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:43:54] "GET /profile/xx/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2021-10-09 15:43:54,953] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:43:54] "GET /profile/xx/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-10-09 15:43:55,375] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:43:55] "GET /profile/xx/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:43:55,375] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:43:55] "GET /profile/xx/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-10-09 15:43:55,652] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:43:55] "GET /profile/xx/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-10-09 15:44:20,560] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:44:20,561] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:44:21,037] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:44:23,946] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:44:23,947] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:44:29,208] :: ERROR :: Thread-3 :: build_app ::Server Error
+[2021-10-09 15:44:29,235] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:44:29] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 15:44:31,197] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:44:31] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:44:34,300] :: ERROR :: Thread-5 :: build_app ::Server Error
+[2021-10-09 15:44:34,306] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:44:34] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:46:31,352] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:46:31,395] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:46:31,853] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:46:36,207] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:46:36,208] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:52:34,961] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 15:52:34,962] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:52:35,380] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:52:38,238] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:52:38,238] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:53:17,675] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:53:17,676] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:53:18,279] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:53:21,744] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:53:21,744] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:53:22,013] :: ERROR :: Thread-3 :: build_app ::Server Error
+[2021-10-09 15:53:22,045] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:53:22] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:53:37,235] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:53:37,236] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:53:38,336] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:53:38,336] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:53:47,484] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:53:47] "GET / HTTP/1.1" 200 -
+[2021-10-09 15:53:50,660] :: ERROR :: Thread-4 :: build_app ::Server Error
+[2021-10-09 15:53:50,679] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:53:50] "GET /xx HTTP/1.1" 404 -
+[2021-10-09 15:54:36,442] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
+[2021-10-09 15:54:36,484] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:54:36,943] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:56:43,637] :: INFO :: Thread-17 :: build_app ::logger configured
+[2021-10-09 15:56:43,638] :: ERROR :: Thread-17 :: build_app ::error
+[2021-10-09 15:56:48,813] :: INFO :: Thread-17 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:56:48] "GET / HTTP/1.1" 200 -
+[2021-10-09 15:56:57,806] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:56:58,873] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:56:57,806] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:56:58,873] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 15:57:04,150] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:57:04] "GET / HTTP/1.1" 200 -
+[2021-10-09 15:57:08,521] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:57:08] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 15:57:10,963] :: ERROR :: Thread-5 :: build_app ::Server Error
+[2021-10-09 15:57:10,971] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 15:57:10] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 15:59:19,972] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:59:20,049] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:59:20,491] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:59:48,185] :: INFO :: Thread-10 :: build_app ::logger configured
+[2021-10-09 15:59:51,645] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 15:59:51,645] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 15:59:53,717] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 15:59:56,551] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 15:59:56,551] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:00:01,773] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:00:01] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:00:01,789] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:00:01] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:00:03,393] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:00:03] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:00:06,269] :: ERROR :: Thread-9 :: build_app ::Server Error
+[2021-10-09 16:00:06,282] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:00:06] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 16:03:59,675] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:03:59,721] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:04:00,131] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:04:27,578] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:04:27,579] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:04:28,202] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:04:31,457] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:04:31,458] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:05:01,829] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:05:01] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:04:58,381] :: ERROR :: Thread-3 :: build_app ::Server Error
+[2021-10-09 16:05:03,465] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:05:03] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 16:05:04,161] :: ERROR :: Thread-5 :: build_app ::Server Error
+[2021-10-09 16:05:09,187] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:05:09] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 16:06:38,280] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:06:38,334] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:06:38,936] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:06:44,072] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:06:44,073] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:06:59,232] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:06:59] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:06:54,180] :: ERROR :: Thread-3 :: build_app ::Server Error
+[2021-10-09 16:07:04,277] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:04] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 16:07:04,290] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:04] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:07:04,315] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:04] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:07:04,347] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:04] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:07:12,318] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:07:13,471] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:07:12,318] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:07:13,471] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:07:23,647] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:23] "GET / HTTP/1.1" 200 -
+[2021-10-09 16:07:23,672] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:23] "GET / HTTP/1.1" 200 -
+[2021-10-09 16:07:23,689] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:23] "GET / HTTP/1.1" 200 -
+[2021-10-09 16:07:27,204] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:27] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:07:31,285] :: ERROR :: Thread-13 :: build_app ::Server Error
+[2021-10-09 16:07:41,361] :: INFO :: Thread-13 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:41] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 16:07:41,352] :: ERROR :: Thread-16 :: build_app ::Server Error
+[2021-10-09 16:07:51,422] :: INFO :: Thread-16 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:07:51] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 16:10:04,125] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:10:04,210] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:10:04,718] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:10:09,338] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:10:09,339] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:10:19,498] :: ERROR :: Thread-4 :: build_app ::Server Error
+[2021-10-09 16:10:29,583] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:10:29] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 16:10:29,591] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:10:29] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:10:35,091] :: ERROR :: Thread-7 :: build_app ::Server Error
+[2021-10-09 16:10:45,121] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:10:45] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 16:10:59,391] :: INFO :: Thread-12 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:10:59] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:10:50,510] :: ERROR :: Thread-11 :: build_app ::Server Error
+[2021-10-09 16:11:00,590] :: INFO :: Thread-11 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:11:00] "GET /profile/xx/xx HTTP/1.1" 404 -
+[2021-10-09 16:11:02,671] :: ERROR :: Thread-14 :: build_app ::Server Error
+[2021-10-09 16:11:12,693] :: INFO :: Thread-14 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:11:12] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 16:12:18,681] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:12:19,895] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:12:18,681] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:12:19,895] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:17:20,674] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:17:20,676] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:17:21,215] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:17:24,606] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:17:24,609] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:18:07,161] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:18:07,163] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:18:07,711] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:18:11,532] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:18:11,533] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:18:14,994] :: ERROR :: Thread-3 :: build_app ::Server Error
+[2021-10-09 16:18:15,022] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:18:15] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 16:18:17,324] :: INFO :: Thread-4 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:18:17] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:18:20,040] :: ERROR :: Thread-5 :: build_app ::Server Error
+[2021-10-09 16:18:20,051] :: INFO :: Thread-5 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:18:20] "GET /profile/xx HTTP/1.1" 404 -
+[2021-10-09 16:19:13,805] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:19:13,838] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:19:14,395] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:19:18,694] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:19:18,695] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:20:07,331] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:20:08,480] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:20:07,332] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:20:08,480] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:20:18,734] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:20:18] "GET / HTTP/1.1" 200 -
+[2021-10-09 16:20:29,049] :: INFO :: Thread-8 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:20:29] "GET /gan/ HTTP/1.1" 200 -
+[2021-10-09 16:20:31,097] :: ERROR :: Thread-9 :: build_app ::Server Error
+[2021-10-09 16:20:41,134] :: INFO :: Thread-9 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:20:41] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 16:23:20,202] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:23:20,258] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:23:20,894] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:23:25,421] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:23:25,421] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:24:09,581] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:24:09,582] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:24:10,079] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:24:14,074] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:24:19,382] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:24:14,078] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:24:24,125] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:24:24,891] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:24:29,358] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:24:29,358] :: ERROR :: Thread-1 :: build_app ::error
+[2021-10-09 16:24:46,322] :: INFO :: Thread-7 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:24:46] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:24:39,523] :: ERROR :: Thread-3 :: build_app ::Server Error
+[2021-10-09 16:24:49,555] :: INFO :: Thread-3 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:24:49] "[31m[1mGET /gan/xx HTTP/1.1" 405 -
+[2021-10-09 16:24:49,564] :: INFO :: Thread-6 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:24:49] "GET /profile HTTP/1.1" 200 -
+[2021-10-09 16:24:49,950] :: ERROR :: Thread-10 :: build_app ::Server Error
+[2021-10-09 16:25:00,045] :: INFO :: Thread-10 :: _internal ::127.0.0.1 - - [09/Oct/2021 16:25:00] "GET /profile/xx/ HTTP/1.1" 404 -
+[2021-10-09 16:27:10,950] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/build_app.py', reloading
+[2021-10-09 16:27:11,051] :: INFO :: MainThread :: base ::Scheduler has been shut down
+[2021-10-09 16:27:11,648] :: INFO :: MainThread :: _internal :: * Restarting with stat
+[2021-10-09 16:27:16,521] :: INFO :: Thread-1 :: build_app ::logger configured
+[2021-10-09 16:27:20,670] :: INFO :: MainThread :: _internal :: * Detected change in '/home/lucile/Projet_final/IART_app/config/__init__.py', reloading
